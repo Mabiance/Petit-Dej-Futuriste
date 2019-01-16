@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <div id="primary-nav"
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+    <li class="active"><a href="#">Acceuil <span class="sr-only">(current)</span></a></li>
+    <li><a href="produits.html">Nos produits</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Nous contacter</a></li>
+
+    </ul>
+
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav> <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="/web/js/bootstrap.min.js"></script>
+
+    <div id="sfwdt0d05ab" class="sf-toolbar" style="display: none"></div><script>/*<![CDATA[*/ Sfjs = (function() { "use strict"; var noop = function() {}, profilerStorageKey = 'sf2/profiler/', request = function(url, onSuccess, onError, payload, options) { var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'); options = options || {}; options.maxTries = options.maxTries || 0; xhr.open(options.method || 'GET', url, true); xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); xhr.onreadystatechange = function(state) { if (4 !== xhr.readyState) { return null; } if (xhr.status == 404 && options.maxTries > 1) { setTimeout(function(){ options.maxTries--; request(url, onSuccess, onError, payload, options); }, 500); return null; } if (200 === xhr.status) { (onSuccess || noop)(xhr); } else { (onError || noop)(xhr); } }; xhr.send(payload || ''); }, hasClass = function(el, klass) { return el.className.match(new RegExp('\\b' + klass + '\\b')); }, removeClass = function(el, klass) { el.className = el.className.replace(new RegExp('\\b' + klass + '\\b'), ' '); }, addClass = function(el, klass) { if (!hasClass(el, klass)) { el.className += " " + klass; } }, getPreference = function(name) { if (!window.localStorage) { return null; } return localStorage.getItem(profilerStorageKey + name); }, setPreference = function(name, value) { if (!window.localStorage) { return null; } localStorage.setItem(profilerStorageKey + name, value); }; return { hasClass: hasClass, removeClass: removeClass, addClass: addClass, getPreference: getPreference, setPreference: setPreference, request: request, load: function(selector, url, onSuccess, onError, options) { var el = document.getElementById(selector); if (el && el.getAttribute('data-sfurl') !== url) { request( url, function(xhr) { el.innerHTML = xhr.responseText; el.setAttribute('data-sfurl', url); removeClass(el, 'loading'); (onSuccess || noop)(xhr, el); }, function(xhr) { (onError || noop)(xhr, el); }, '', options ); } return this; }, toggle: function(selector, elOn, elOff) { var i, style, tmp = elOn.style.display, el = document.getElementById(selector); elOn.style.display = elOff.style.display; elOff.style.display = tmp; if (el) { el.style.display = 'none' === tmp ? 'none' : 'block'; } return this; } } })();/*]]>*/</script><script>/*<![CDATA[*/ (function () { Sfjs.load( 'sfwdt0d05ab', '/web/app_dev.php/_wdt/0d05ab', function(xhr, el) { el.style.display = -1 !== xhr.responseText.indexOf('sf-toolbarreset') ? 'block' : 'none'; if (el.style.display == 'none') { return; } if (Sfjs.getPreference('toolbar/displayState') == 'none') { document.getElementById('sfToolbarMainContent-0d05ab').style.display = 'none'; document.getElementById('sfToolbarClearer-0d05ab').style.display = 'none'; document.getElementById('sfMiniToolbar-0d05ab').style.display = 'block'; } else { document.getElementById('sfToolbarMainContent-0d05ab').style.display = 'block'; document.getElementById('sfToolbarClearer-0d05ab').style.display = 'block'; document.getElementById('sfMiniToolbar-0d05ab').style.display = 'none'; } }, function(xhr) { if (xhr.status !== 0) { confirm('An error occurred while loading the web debug toolbar (' + xhr.status + ': ' + xhr.statusText + ').\n\nDo you want to open the profiler?') && (window.location = '/web/app_dev.php/_profiler/0d05ab'); } }, {'maxTries': 5} ); })();/*]]>*/</script>
+</div></br></br></br></br></br>
+
+</head>
+<center>
+<body body background="fdindex33.jpg" height="600">
+  <div class="container-fluid">
+
+  </div>
+  <style>
+      #heading { color: #000000; }
+    </style>
+<center>
+
+  <img src="logoreal.png" alt="Bootstrap" height="320" class="img-rounded"></br>
+<label><h4 id=heading><b>Bienvenue sur notre site</b></h4></label></br>
+<p><h4> P'tit Dej Futuriste est une entreprise alimentaire existant depuis 2018</p>
+  <p>Inspirée par les plus grands inventeur de France, elle vous propose une sélection de gadgets faciles à manipuler</p></h>
+</center>
+
+	<a href="contact.html"><mark>NOUS CONTACTER</mark></a>
+
+</body>
+
+</center>
+
+</html>

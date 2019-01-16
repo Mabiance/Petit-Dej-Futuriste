@@ -1,0 +1,33 @@
+.box
+{
+  height: 510px;
+  width: 450px;
+  background-color: #CD853F;
+
+}
+
+.box2
+{
+  height: 510px;
+  width: 650px;
+  background-color: #CD853F;
+
+}
+.box3
+{
+  height: 510px;
+  width: 450px;
+  margin-right: 110px;
+
+}
+mark{
+background: rgba(255, 255, 255, 0);
+  color: #f98d93;
+  font-family: fantasy;
+}
+
+mark2{
+background: #CD853F;
+  color: #000000 ;
+  font-family: fantasy;
+}
