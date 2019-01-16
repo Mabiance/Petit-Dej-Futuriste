@@ -4,8 +4,9 @@ Site vitrine pour un magasin
 # DESCRIPTION
 Ce projet à été fait dans le cadre de mes études: la consigne était de s'entrainer avec bootstrap en faisant un site vitine 
 pour une boutique de notre choix.
-https://github.com/Mabiance/Petit-Dej-Futuriste/blob/master/photoacceuil.png
-
+![image_IMG](https://github.com/Mabiance/Petit-Dej-Futuriste/blob/master/photoacceuil.png)
+![image_IMG](https://github.com/Mabiance/Petit-Dej-Futuriste/blob/master/photoproduit.png)
+![image_IMG](https://github.com/Mabiance/Petit-Dej-Futuriste/blob/master/photocontact.png)
 
 # FONCTIONALITE
 acceuil = logo+slogan
